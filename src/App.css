@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #e74c3c;
+  padding: 20px;
+  color: white;
+}
+
+.content {
+  margin: 20px;
+}
+
+.footer {
+  padding: 20px;
+}

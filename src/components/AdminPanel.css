@@ -1,0 +1,74 @@
+.admin-panel {
+  background-color: rgb(86, 147, 212);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #eceff1;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: #2980b9;
+  }
+}
+
+.user-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-list li {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.user-list li .user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-list li .user-info strong {
+  margin-right: 5px;
+}
+
+.user-list li button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.user-list li button + button {
+  margin-left: 10px;
+}
+
+.user-list li button:hover {
+  background-color: #e74c3c;
+  color: white;
+}
